@@ -46,7 +46,7 @@ router.get('/posts', (req, res) => {
 
 // SHOW
 // GET /posts/5a7db6c74d55bc51bdf39793
-router.get('/posts/:id', requireToken, (req, res) => {
+router.get('/posts/:id', (req, res) => {
   // req.params.id will be set based on the `:id` in the route
   Post.findById(req.params.id)
     .then(handle404)
