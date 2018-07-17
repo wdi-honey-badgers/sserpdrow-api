@@ -9,8 +9,10 @@ curl "${API}${URL_PATH}/${ID}" \
   --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${TOKEN}" \
 --data '{
-    "post": {
-      "text": "'"${TEXT}"'"
+  "post": {
+    "title": "'"${TITLE}"'",
+    "blog": "'"${BLOG}"'",
+    "content": "'"${CONTENT}"'"
     }
   }'
 
