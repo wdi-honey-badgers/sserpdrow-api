@@ -93,6 +93,7 @@ router.patch('/posts/:id', requireToken, (req, res) => {
       Object.keys(req.body.post).forEach(key => {
         if (req.body.post[key] === '') {
           delete req.body.post[key]
+          throw new Error('something for now')
         }
       })
 
