@@ -1,6 +1,8 @@
 # Sserpdrow Client
 "Divine." - Vogue
+
 "Watch this startup!" - Forbes
+
 "eh." - Wordpress
 
 Our app, Sserpdrow, is a Content Management System for businesses looking to add a blog and custom web pages to their online presence. Visitors of the company's websites can read the blogs and web pages, and Users (aka, the companies), can create, read, update, and delete blog posts and web pages.
